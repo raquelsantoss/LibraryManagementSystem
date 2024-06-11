@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6430e44-c996-4082-82a6-f64d434efda1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/temp_books.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/BookCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/JsonUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/resource/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -36,12 +39,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1718065651" />
+                    <option name="branchName" value="test/unit-test" />
+                    <option name="lastUsedInstant" value="1718071746" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1718065650" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1718065651" />
                   </RecentBranch>
                 </list>
               </option>
@@ -68,11 +71,16 @@
   "keyToString": {
     "Application.LibraryClient.executor": "Run",
     "Application.LibraryServer.executor": "Run",
+    "JUnit.BookCollectionTest.executor": "Run",
+    "JUnit.BookTest.executor": "Run",
+    "JUnit.JsonUtilTest.executor": "Run",
+    "JUnit.JsonUtilTest.testReadJsonFile.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feat/-Client-handler",
+    "git-widget-placeholder": "test/unit-test",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/raquel/LibraryManagementSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,7 +95,68 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/library" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JsonUtilTest">
+    <configuration name="BookCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.library.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.library.tests.BookCollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.library.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.library.tests.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.library.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.library.tests.JsonUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonUtilTest.testReadJsonFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.library.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.library.tests.JsonUtilTest" />
+      <option name="METHOD_NAME" value="testReadJsonFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LibraryManagementSystem" />
       <method v="2">
@@ -101,14 +170,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JsonUtilTest" />
+        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.BookCollectionTest" />
+        <item itemvalue="JUnit.JsonUtilTest.testReadJsonFile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -119,6 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718065540239</updated>
       <workItem from="1718065541473" duration="2312000" />
+      <workItem from="1718071578778" duration="2274000" />
     </task>
     <servers />
   </component>
