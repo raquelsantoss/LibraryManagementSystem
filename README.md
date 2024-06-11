@@ -84,5 +84,3 @@ Este projeto é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais 
 - Este projeto utiliza a biblioteca Jackson para processamento de JSON.
 
 ---
-
-Sinta-se à vontade para personalizar este README para melhor atender às suas necessidades e detalhes do projeto.
