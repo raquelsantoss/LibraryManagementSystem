@@ -1,0 +1,18 @@
+Index: src/main/java/org/library/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello world!\");\n    }\n}
+===================================================================
+diff --git a/src/main/java/org/library/Main.java b/src/main/java/org/library/Main.java
+--- a/src/main/java/org/library/Main.java	
++++ b/src/main/java/org/library/Main.java	
+@@ -1,7 +1,4 @@
+-package org.example;
++package org.library;
+ 
+ public class Main {
+-    public static void main(String[] args) {
+-        System.out.println("Hello world!");
+-    }
+ }
+\ No newline at end of file
