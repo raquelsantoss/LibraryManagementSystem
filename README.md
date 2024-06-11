@@ -79,7 +79,7 @@ O Sistema de Gerenciamento de Biblioteca é uma aplicação Java que permite aos
 
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## Agradecimentos
+## Bibliotecas
 
 - Este projeto utiliza a biblioteca Jackson para processamento de JSON.
 
