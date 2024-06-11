@@ -10,7 +10,7 @@ import java.net.Socket;
 public class LibraryServer {
     private static final int PORT = 12345;
     private static final String FILE_PATH = "books.json";
-    private static final String RESOURCES_DIR = "main/java/org/library/resource/";
+    private static final String RESOURCES_DIR = "src/main/java/org/library/resource/";
     private BookCollection bookCollection;
 
     public LibraryServer() {

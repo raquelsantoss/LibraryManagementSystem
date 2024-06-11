@@ -12,16 +12,16 @@ public class JsonUtil {
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
+
     public static <T> T readJsonFile(String filePath, Class<T> clazz) throws IOException {
-        URL resource = JsonUtil.class.getClassLoader().getResource(filePath);
-        if (resource == null) {
-            throw new FileNotFoundException("File not found: " + filePath);
+        File file = new File(filePath);
+        if (!file.exists()) {
+            throw new IOException("File not found: " + filePath);
         }
-        File file = new File(resource.getFile());
         return objectMapper.readValue(file, clazz);
     }
 
     public static <T> void writeJsonFile(String filePath, T object) throws IOException {
-        objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/" + filePath), object);
+        objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(filePath), object);
     }
 }

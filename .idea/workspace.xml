@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6430e44-c996-4082-82a6-f64d434efda1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/resource/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.LibraryServer.executor": "Debug",
+    "Application.LibraryClient.executor": "Run",
+    "Application.LibraryServer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,6 +84,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/library/resource" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/library" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,13 +130,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

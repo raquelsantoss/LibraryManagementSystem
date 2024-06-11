@@ -20,7 +20,7 @@ public class LibraryClient {
             System.out.println("Connected to the book server.");
 
             while (true) {
-                System.out.println("Enter command (list, register, rent, return, update, exit): ");
+                System.out.println("Enter command (list, register, rent, return, exit): ");
 
                 String command = userInput.readLine();
 
@@ -46,11 +46,6 @@ public class LibraryClient {
                         System.out.println("Enter title: ");
                         String returnTitle = userInput.readLine();
                         writer.println("return," + returnTitle);
-                        break;
-                    case "update":
-                        System.out.println("Enter details (title,newCopies): ");
-                        String updateDetails = userInput.readLine();
-                        writer.println("update," + updateDetails);
                         break;
                     default:
                         System.out.println("Unknown command.");
