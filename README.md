@@ -36,7 +36,7 @@ O Sistema de Gerenciamento de Biblioteca é uma aplicação Java que permite aos
 - **register,author,title,genre,copies**: Registra um novo livro com os detalhes especificados.
 - **rent,title**: Aluga um livro com o título especificado.
 - **return,title**: Devolve um livro com o título especificado.
-- **update,title,newCopies**: Atualiza o número de cópias de um livro com o título especificado.
+- **title,newCopies**: Atualiza o número de cópias de um livro com o título especificado.
 - **exit**: Sai da aplicação cliente.
 
 ## Exemplo
@@ -44,35 +44,28 @@ O Sistema de Gerenciamento de Biblioteca é uma aplicação Java que permite aos
 1. **Listar todos os livros:**
 
    ```sh
-   Digite o comando (list, register, rent, return, update, exit): list
+   Digite o comando (list, register, rent, return, exit): list
    ```
 
 2. **Registrar um novo livro:**
 
    ```sh
-   Digite o comando (list, register, rent, return, update, exit): register
+   Digite o comando (list, register, rent, return, exit): register
    Digite os detalhes (autor,título,gênero,cópias): "John Doe","Livro Exemplo","Gênero Exemplo",5
    ```
 
 3. **Alugar um livro:**
 
    ```sh
-   Digite o comando (list, register, rent, return, update, exit): rent
+   Digite o comando (list, register, rent, return, exit): rent
    Digite o título: "Livro Exemplo"
    ```
 
 4. **Devolver um livro:**
 
    ```sh
-   Digite o comando (list, register, rent, return, update, exit): return
+   Digite o comando (list, register, rent, return, exit): return
    Digite o título: "Livro Exemplo"
-   ```
-
-5. **Atualizar o número de cópias:**
-
-   ```sh
-   Digite o comando (list, register, rent, return, update, exit): update
-   Digite os detalhes (título,novasCópias): "Livro Exemplo",10
    ```
 
 ## Licença
