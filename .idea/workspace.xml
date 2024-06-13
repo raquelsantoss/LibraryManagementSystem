@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6430e44-c996-4082-82a6-f64d434efda1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/temp_books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/BookCollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/JsonUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +33,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="refactor/output" />
+                    <option name="lastUsedInstant" value="1718233456" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="test/unit-test" />
                     <option name="lastUsedInstant" value="1718071746" />
@@ -78,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "test/unit-test",
+    "git-widget-placeholder": "refactor/output",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/raquel/LibraryManagementSystem",
     "node.js.detected.package.eslint": "true",
@@ -95,7 +94,33 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/library" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonUtilTest">
+  <component name="RunManager" selected="Application.LibraryClient">
+    <configuration name="LibraryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.library.socket.LibraryClient" />
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.library.socket.LibraryServer" />
+      <module name="LibrarySystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.library.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibrarySystem" />
       <extension name="coverage">
@@ -141,22 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonUtilTest.testReadJsonFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LibrarySystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.library.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.library.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.library.tests.JsonUtilTest" />
-      <option name="METHOD_NAME" value="testReadJsonFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LibraryManagementSystem" />
       <method v="2">
@@ -172,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryClient" />
+        <item itemvalue="Application.LibraryServer" />
         <item itemvalue="JUnit.JsonUtilTest" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="JUnit.BookCollectionTest" />
-        <item itemvalue="JUnit.JsonUtilTest.testReadJsonFile" />
       </list>
     </recent_temporary>
   </component>
@@ -188,22 +198,12 @@
       <option name="presentableId" value="Default" />
       <updated>1718065540239</updated>
       <workItem from="1718065541473" duration="2312000" />
-      <workItem from="1718071578778" duration="2274000" />
+      <workItem from="1718071578778" duration="3544000" />
+      <workItem from="1718233148248" duration="4546000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/library/resource/JsonUtil.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
