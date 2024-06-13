@@ -44,7 +44,10 @@ public class BookCollection {
     public String booksString() {
         StringBuilder booksString = new StringBuilder();
         for (Book book : books) {
-            booksString.append(book.toString());
+            booksString.append(" Author: ").append(book.getAuthor())
+                    .append(", Title: ").append(book.getTitle())
+                    .append(", Genre: ").append(book.getGenre())
+                    .append(", Copies: ").append(book.getCopies());
         }
         return booksString.toString();
     }
