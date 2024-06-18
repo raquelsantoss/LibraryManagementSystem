@@ -1,1 +1,13 @@
-{"books":[{"author":"Jane Austen","title":"Pride and Prejudice","genre":"Romance","copies":"5"},{"author":"George Orwell","title":"1984","genre":"Dystopian","copies":"5"}]}
+{
+  "livros" : [ {
+    "autor" : "Author Name",
+    "titulo" : "Test Book",
+    "genero" : "Genre",
+    "exemplares" : 10
+  }, {
+    "autor" : "Author",
+    "titulo" : "New Book",
+    "genero" : "Genre",
+    "exemplares" : 10
+  } ]
+}

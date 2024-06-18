@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6430e44-c996-4082-82a6-f64d434efda1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/library/tests/LibraryServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24,_21_42_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24,_21_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24__21_42__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24__21_56__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/resource/temp_books.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/resource/temp_books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,35 +74,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LibraryClient.executor": "Run",
-    "Application.LibraryServer.executor": "Run",
-    "JUnit.BookCollectionTest.executor": "Run",
-    "JUnit.BookTest.executor": "Run",
-    "JUnit.JsonUtilTest.executor": "Run",
-    "JUnit.JsonUtilTest.testReadJsonFile.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/raquel/LibraryManagementSystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LibraryClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryServer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookCollectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JsonUtilTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JsonUtilTest.testReadJsonFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test/unit-test&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raquel/LibraryManagementSystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/library/resource" />
       <recent name="$PROJECT_DIR$/src/main/java/org/library" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryClient">
+  <component name="RunManager" selected="JUnit.LibraryServerTest">
     <configuration name="LibraryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.library.socket.LibraryClient" />
       <module name="LibrarySystem" />
@@ -168,6 +175,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryServerTest" type="JUnit" factoryName="JUnit">
+      <module name="LibrarySystem" />
+      <option name="PACKAGE_NAME" value="org.library.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.library.tests.LibraryServerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LibraryManagementSystem" />
       <method v="2">
@@ -181,15 +198,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.LibraryClient" />
+      <item itemvalue="Application.LibraryServer" />
+      <item itemvalue="JUnit.LibraryServerTest" />
+      <item itemvalue="JUnit.BookCollectionTest" />
+      <item itemvalue="JUnit.BookTest" />
+      <item itemvalue="JUnit.JsonUtilTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LibraryClient" />
-        <item itemvalue="Application.LibraryServer" />
-        <item itemvalue="JUnit.JsonUtilTest" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="JUnit.BookCollectionTest" />
+        <item itemvalue="JUnit.JsonUtilTest" />
+        <item itemvalue="Application.LibraryClient" />
+        <item itemvalue="Application.LibraryServer" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,6 +235,7 @@
       <workItem from="1718065541473" duration="2312000" />
       <workItem from="1718071578778" duration="3544000" />
       <workItem from="1718233148248" duration="4546000" />
+      <workItem from="1718710645430" duration="209000" />
     </task>
     <servers />
   </component>
