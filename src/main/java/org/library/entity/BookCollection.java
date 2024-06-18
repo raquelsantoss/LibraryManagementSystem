@@ -44,7 +44,7 @@ public class BookCollection {
     public String booksString() {
         StringBuilder booksString = new StringBuilder();
         for (Book book : books) {
-            booksString.append(book.toString());
+            booksString.append(book.toString() + "_");
         }
         return booksString.toString();
     }
