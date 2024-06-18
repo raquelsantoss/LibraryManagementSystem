@@ -47,7 +47,8 @@ public class BookCollection {
             booksString.append(" Author: ").append(book.getAuthor())
                     .append(", Title: ").append(book.getTitle())
                     .append(", Genre: ").append(book.getGenre())
-                    .append(", Copies: ").append(book.getCopies());
+                    .append(", Copies: ").append(book.getCopies())
+                    .append("_");
         }
         return booksString.toString();
     }

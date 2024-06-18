@@ -7,6 +7,8 @@
     <list default="true" id="b6430e44-c996-4082-82a6-f64d434efda1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/entity/BookCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/library/socket/LibraryClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "refactor/output",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/raquel/LibraryManagementSystem",
     "node.js.detected.package.eslint": "true",
