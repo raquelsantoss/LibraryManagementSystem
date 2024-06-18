@@ -9,12 +9,14 @@ import java.net.Socket;
 
 public class LibraryServer {
     private static final int PORT = 12345;
-    private static final String FILE_PATH = "books.json";
+    private static String FILE_PATH = "books.json";
     private static final String RESOURCES_DIR = "src/main/java/org/library/resource/";
     private BookCollection bookCollection;
+    private ServerSocket serverSocket;
 
     public LibraryServer() {
         bookCollection = new BookCollection();
+
         // Load the book collection from file
         try {
             bookCollection = JsonUtil.readJsonFile(RESOURCES_DIR + FILE_PATH, BookCollection.class);
@@ -23,8 +25,21 @@ public class LibraryServer {
         }
     }
 
+    // Constructor for dependency injection
+    public LibraryServer(String filePath) throws IOException {
+        FILE_PATH = filePath;
+
+        // Load the book collection from file
+        try {
+            bookCollection = JsonUtil.readJsonFile(RESOURCES_DIR + FILE_PATH, BookCollection.class);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
     public void start() {
-        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+        try (ServerSocket serverSocket = this.serverSocket != null ? this.serverSocket : new ServerSocket(PORT)) {
             System.out.println("Book server is running on port " + PORT);
 
             while (true) {

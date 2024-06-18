@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Test Book",
+      "author": "Author Name",
+      "genre": "Genre",
+      "copies": 10
+    }
+  ]
+}
